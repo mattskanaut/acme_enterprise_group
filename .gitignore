@@ -1,0 +1,128 @@
+# General Python and Environment-Specific Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.manifest
+*.spec
+*.mo
+*.pot
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pytype/
+cython_debug/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.hypothesis/
+cover/
+*.log
+*.sqlite3
+
+# CloudFormation, Bicep, and ARM Templates
+*.yaml~
+*.json~
+*.bicep
+*.arm
+*.armplan
+*.azcli
+
+# Pulumi
+pulumi.*
+*.pulumi/backup/
+*.pulumi/stacks/
+*.pulumi/workspace/
+.secrets.yaml
+Pulumi.secrets.json
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.tfstate.lock.info
+
+# CNAPPGoat
+cnappgoat-output/
+cnappgoat-reports/
+*.cnappgoat/
+
+# GCP and Kubernetes
+*.jinja
+*.schema
+deployment*.yaml
+*.kube/
+kubeconfig
+*.yaml~
+
+# Build Artifacts and Logs
+build/
+dist/
+*.zip
+*.tar.gz
+*.jar
+*.war
+*.log
+*.bak
+
+# Node.js/JavaScript (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# IDEs and Editors
+.idea/
+*.iws
+out/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+
+# Sensitive Data
+.env
+*.secrets
+*.key
+*.crt
+*.pem
+
+# Temporary and Backup Files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Miscellaneous
+docs/_build/
+site/
+*.prof
+*.trace
+*.coverprofile
+
